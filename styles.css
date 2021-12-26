@@ -179,14 +179,14 @@ html{
 .whoweare{
     margin: 0vh 15vw 10vh 15vw;
     width: 70vw;
-    height: 50vh;
+    height: auto;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
 .whatwedo{
-    height: 80vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -248,7 +248,7 @@ html{
 
 .contactus form{
     width: 60vw;
-    height: 80vh;
+    height: auto;
     margin: 0 20vw;
     display: flex;
     flex-direction: column;
@@ -275,6 +275,7 @@ html{
 
 footer{
     width: 90vw;
+    height:auto;
     padding: 5vh 5vw;
     height: 300px;
     background-color: #193a1ee1;

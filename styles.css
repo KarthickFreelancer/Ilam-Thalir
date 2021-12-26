@@ -90,7 +90,6 @@ html{
 
 .mobile-navbar{
     display: none;
-    background-color: #1f2833;
     width: 100%;
     height: auto;
     margin: 0;
@@ -146,16 +145,16 @@ html{
     align-items: center;
 }
 
-.menu .menu-item{
+.menu li{
     list-style: none;
     text-decoration: none;
     /* margin: 20px 0px; */
 }
 
-.menu .menu-item a{
+.menu li a{
     text-decoration: none;
-    font-size: 20px;
-    color: #ffe3e3;
+    font-size: 20px;    
+    color: #193a1ee1;
     font-family: 'Questrial', sans-serif;
 }
 .menu-active{
@@ -315,7 +314,12 @@ footer .links a{
 }
 
 @media (min-width:481px) and (max-width:768px) {
-    
+    .navbar{
+        display: none;
+    } 
+    .mobile-navbar{
+        display: block;
+    }
 }
 
 @media (min-width:769px) and (max-width:1024px) {

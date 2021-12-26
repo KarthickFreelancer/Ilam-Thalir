@@ -305,7 +305,7 @@ footer .links a{
     margin: 10px;
 }
 
-@media (min-width:320) and (max-width:480px) {
+@media (min-width:320px) and (max-width:480px) {
    .navbar{
        display: none;
    } 

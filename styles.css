@@ -39,10 +39,8 @@ html{
 .main-page{
     width: 100vw;
     height: 30vw;
-    background-color: rgb(104, 79, 79);
     background-image: url("Bg2.jpg");
     background-size: 100% 100%;
-    background-blend-mode: difference;
 }
 
 .navbar{

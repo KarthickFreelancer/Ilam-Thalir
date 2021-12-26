@@ -285,7 +285,7 @@ html{
 footer{
     width: 90vw;
     padding: 5vh 5vw;
-    height: 300px;
+    height: auto;
     background-color: #193a1ee1;
     display: flex;
 }
@@ -314,19 +314,34 @@ footer .links a{
 }
 
 @media (min-width:320px) and (max-width:480px) {
-   .navbar{
-       display: none;
-   } 
-   .mobile-navbar{
-       display: block;
-   }
-   .whatwedo{
-    flex-direction: column;
-    /* display: none; */
+    .header p{
+        font-size: 18px;
+    }
+    .navbar{
+        display: none;
+    } 
+    .mobile-navbar{
+        display: block;
+    }
+    .whatwedo{
+        flex-direction: column;
     }
     .whatwedo div{
-        width: auto;
-        height: auto;
+        margin: 50px 60px;
+    }
+
+    .whatwedo div img{
+        width: 200px;
+        height: 200px;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+    footer div{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0px;
     }
 }
 
@@ -339,16 +354,46 @@ footer .links a{
     }
     .whatwedo{
         flex-direction: column;
-        /* display: none; */
     }
     .whatwedo div{
-        width: auto;
-        height: auto;
+        margin: 50px 150px;
+    }
+
+    .whatwedo div img{
+        width: 250px;
+        height: 250px;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+    footer div{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0px;
     }
 }
 
 @media (min-width:769px) and (max-width:1024px) {
+    .navbar{
+        display: none;
+    } 
+    .mobile-navbar{
+        display: block;
+    }
+    .whatwedo{
+        flex-direction: column;
+    }
+    .whatwedo div{
+        margin: 50px 300px;
+    }
+
+    .whatwedo div img{
+        width: 250px;
+        height: 250px;
+    }
     
+
 }
 
 @media (min-width:1025px) and (max-width:1440px) {
